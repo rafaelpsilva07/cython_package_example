@@ -1,0 +1,1 @@
+from .multpac import mult
