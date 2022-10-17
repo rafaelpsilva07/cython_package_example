@@ -20,10 +20,10 @@ ext_data = {
     'dummypackage.numpypac.normalizepac': {
         'sources': [join(directory_path, 'dummypackage', 'numpypac', 'normalizepac.pyx')],
         'include': [np.get_include()]},
-    'dummypackage.cpppac.wrap_fib': {
+    'dummypackage.cpac.wrap_fib': {
         'sources': [
-            join(directory_path, 'dummypackage', 'cpppac', 'wrap_fib.pyx'),
-            join(directory_path, 'dummypackage', 'cpppac', 'cfib.c')]
+            join(directory_path, 'dummypackage', 'cpac', 'wrap_fib.pyx'),
+            join(directory_path, 'dummypackage', 'cpac', 'cfib.c')]
     }
 }
 
